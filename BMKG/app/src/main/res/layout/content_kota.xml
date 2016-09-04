@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.CuacaActivity"
+    tools:showIn="@layout/activity_cuaca">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <id.delta.bmkg.view.RecyclerViewFastScroller
+        android:id="@+id/fastscroller"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/recyclerView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/recyclerView"
+        />
+
+    <tr.xip.errorview.ErrorView
+        android:layout_centerInParent="true"
+        android:id="@+id/errorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ev_showTitle="true"
+        app:ev_showSubtitle="true"
+        app:ev_showRetryButton="true"
+        app:ev_errorTitle="Upss"
+        app:ev_errorSubtitle="Sorry there is an error" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMKG</string>
+    <string name="action_settings">Tentang Aplikasi</string>
+    <string name="spinner_name">Cek Info</string>
+    <string name="app_info">Aplikasi untuk menampilkan data prakiraan cuaca sekarang/besok dan informasi gempa. Sumber dari situs BMKG.</string>
+    <string name="app_owner">Deltalabs Project</string>
+    <string name="app_email">deltalabsproject@gmail.com</string>
+    <string name="app_versi">Versi 1.0.0</string>
+    <string name="app_blog">www.deltacomputindo.com</string>
+</resources>
